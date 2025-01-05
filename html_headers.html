@@ -1,0 +1,19 @@
+<script>
+    function centerDropdownChevrons() {
+      var dropdowns = document.querySelectorAll('.Dropdown');
+      dropdowns.forEach(function(dropdown) {
+        var style = dropdown.getAttribute('style');
+        if (style) {
+          var paddingValues = style.match(/padding:\s*([^;]+)/);
+          if (paddingValues) {
+            var paddingRight = parseInt(paddingValues[1].split(' ')[1]) / 2;
+            dropdown.style.backgroundPosition = 'right calc(' + paddingRight + 'px - 0.5em) top 50%, 0 0';
+          }
+        }
+      });
+    }
+
+    window.addEventListener('load', function() {
+      centerDropdownChevrons();
+    });
+</script>

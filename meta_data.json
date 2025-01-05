@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "media",
+        "2": "containers",
+        "3": "data (things)"
+    },
+    "data_tracked": false,
+    "demo_page": "https://plugins-playground-23187.bubbleapps.io/version-test/dd_chevron_centering",
+    "description": "This plugin allows you to center the chevrons in dropdowns by leveraging the \"padding-right\" property. The chevron's position is dynamically calculated to align with the center of the defined padding, rather than being fixed to the dropdown's right edge. \n\n\nDemo page : https://plugins-playground-23187.bubbleapps.io/version-test/dd_chevron_centering",
+    "image": "//meta-q.cdn.bubble.io/f1722197307780x197083457865886880/SCR-20240728-tdmp.png",
+    "license": "open_source",
+    "name": "Dropdown Chevron Centering",
+    "plugin_instructions": "Once installed, it will automatically apply to all native Bubble dropdown elements.\n\nTo center the chevron in your dropdowns, simply adjust the padding-right value in your dropdown’s style settings.\n\nExample:\nIf you set padding-right to 24px (see demo page) the chevron will be positioned exactly in the center of these 24px."
+}
